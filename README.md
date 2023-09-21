@@ -8,14 +8,17 @@ TechTreasure is a website dedicated to tech enthusiasts, providing a centralized
 1. **Home Page**- "TechHub"
    - This is the central landing page that provides an overview and access to various tech-related collections.
    - Welcome to TechTreasure! The central landing page giving you an overview of the fantastic tech collection.
+   - ![TechHub](https://github.com/sahilkumardhala/TechTreasure/blob/main/TechHub.jpg)
 
 2. **Laptop Collection Page** - "LaptopLab"
    - This page specifically dedicated to showcasing a collection of laptops.
    - Explore a wide range of laptops, from gaming rigs to productivity powerhouses.
+   - ![TechHub](https://github.com/sahilkumardhala/TechTreasure/blob/main/LaptopLab.jpg)
 
 3. **Phone Collection Page** - "PhoneZone"
    - This page specifically dedicated to showcasing a collection of phones.
    - Discover the latest smartphones, from cutting-edge models to budget-friendly options.
+   - ![TechHub](https://github.com/sahilkumardhala/TechTreasure/blob/main/PhoneZone.jpg)
 
 Interlinking can be done in a way that makes sense for the user experience. For instance, on the "TechHub" (home page), you could have sections or buttons that lead to "LaptopLab" and "PhoneZone". Similarly, on the collection pages, you could have links or a navigation bar that allows users to easily go back to the "TechHub" or navigate to the other collection page. This way, users can seamlessly explore both laptop and phone collections while being able to go back to the central hub.
 
