@@ -47,6 +47,19 @@
 
 
         }
+        fieldset{
+            width: 400px;
+        background: transparent;
+        /* background-color: rgba(255, 255, 255, 0.1); */
+        /* background-image: url("{% static 'bg.jpg' %}"); */
+        padding: 20px;
+        border: 8px rgba(255, 255, 255, 0.5) double;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        float: left;
+        margin-right: 20px;
+        backdrop-filter: blur(15px);
+        }
 
         #p1 {
             padding: 20px;
@@ -56,10 +69,6 @@
             margin: 20px;
 
         }
-
-
-      
-
         img {
             height: 150px;
             width: auto;
@@ -107,9 +116,9 @@
             transition: --a .3s, --d .2s .2s;
         }
 
-        div {
+        /* div {
             margin: 50px;
-        }
+        } */
 
         #product a {
             color: black;
@@ -141,59 +150,59 @@
     </p>
     <div id="product">
         <!-- HP Laptop Collection -->
-        <div>
-            <h2><a href="https://www8.hp.com/in/en/laptops/index.html" target="_blank">HP</a></h2>
+        <fieldset>
+            <legend><a href="https://www8.hp.com/in/en/laptops/index.html" target="_blank">HP</a></legend>
             <br>
             <a href="https://www8.hp.com/in/en/laptops/spectre-x360-14.html" target="_blank">HP Spectre x360 14
                 :<img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvSA0fc2DcvUORT2o7Pojdiwgo4_yGmvSLKg&usqp=CAU"
-                    alt="HP Spectre x360 14"></a>
+                    alt="HP Spectre x360 14"></a> <br><br>
             <a href="https://www8.hp.com/in/en/laptops/hp-pavilion-15-eg0100tx/index.html" target="_blank">HP Pavilion
                 15 :<img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0mcnAkuFzEz8gdrFOm3vy_oz-Z4n5iMuXwA&usqp=CAU"
                     alt="HP Pavilion 15"></a>
-        </div>
+        </fieldset>
 
         <!-- Dell Laptop Collection -->
-        <div>
-            <h2><a href="https://www.dell.com/en-in/shop/laptops-notebooks-and-2-in-1-laptops/sr/laptops"
-                    target="_blank">Dell</a></h2>
+        <fieldset>
+            <legend><a href="https://www.dell.com/en-in/shop/laptops-notebooks-and-2-in-1-laptops/sr/laptops"
+                    target="_blank">Dell</a></legend>
             <br>
             <a href="https://www.dell.com/en-in/shop/laptops/new-inspiron-15-5510/spd/inspiron-15-5510-laptop"
                 target="_blank">Dell Inspiron 15 5510 :<img
-                    src="https://www.tecnobreak.com/wp-content/uploads/Revision-de-Dell-Inspiron-15-5510-Un-buen-portatil.jpeg"></a>
+                    src="https://www.tecnobreak.com/wp-content/uploads/Revision-de-Dell-Inspiron-15-5510-Un-buen-portatil.jpeg"></a><br><br>
             <a href="https://www.dell.com/en-in/shop/laptops/xps-13-9310-laptop/spd/xps-13-9310-laptop"
                 target="_blank">Dell XPS 13 9310 :<img
                     src="https://laptoping.com/specs/wp-content/uploads/2020/11/Dell-XPS-13-9310-2-in-1.jpg" ,
                     alt="Dell XPS 13 9310"></a>
-        </div>
+        </fieldset>
 
         <!-- Lenovo Laptop Collection -->
-        <div>
-            <h2><a href="https://www.lenovo.com/in/en/laptops/c/LAPTOPS" target="_blank">Lenovo</a></h2>
+        <fieldset>
+            <legend><a href="https://www.lenovo.com/in/en/laptops/c/LAPTOPS" target="_blank">Lenovo</a></legend>
             <br>
             <a href="https://www.lenovo.com/in/en/laptops/thinkpad/thinkpad-t-series/ThinkPad-T15s-Gen-2/p/20W6001FUS"
                 target="_blank">Lenovo ThinkPad T15s Gen 2 :<img
                     src="https://laptopmedia.com/wp-content/uploads/2021/07/lenovothinkpadt15gen2featured.jpg"
-                    alt="Lenovo ThinkPad T15s Gen 2"></a>
+                    alt="Lenovo ThinkPad T15s Gen 2"></a><br><br>
             <a href="https://www.lenovo.com/in/en/laptops/legion-laptops/legion-5-series/Lenovo-Legion-5-15ITH6/p/82JU0085IN"
                 target="_blank">Lenovo Legion 5 15ITH6 :<img
                     src="https://psref.lenovo.com/syspool/Sys/PDF/Legion/Lenovo_Legion_5_15ITH6/Lenovo_Legion_5_15ITH6_OverViewPic.jpg"
                     alt="Lenovo Legion 5 15ITH6"></a>
-        </div>
+        </fieldset>
 
         <!-- ROG Gaming Laptop Collection -->
-        <div>
-            <h2><a href="https://www.asus.com/in/Laptops/ROG-Republic-Of-Gamers-Products/" target="_blank">ROG
-                    Gaming</a></h2>
+        <fieldset>
+            <legend><a href="https://www.asus.com/in/Laptops/ROG-Republic-Of-Gamers-Products/" target="_blank">ROG
+                    Gaming</a></legend>
             <br>
             <a href="https://www.asus.com/in/Laptops/ROG-Strix-SCAR-17-G733/" target="_blank">ROG Strix SCAR 17 G733
                 :<img src="https://laptopmedia.com/wp-content/uploads/2021/03/asusrogstrixscar17g733featured.jpg"
-                    alt="ROG Strix SCAR 17 G733"></a>
+                    alt="ROG Strix SCAR 17 G733"></a><br><br>
             <a href="https://www.asus.com/in/Laptops/ROG-Strix-G15-2021/" target="_blank">ROG Strix G15 2021 :<img
                     src="https://www.notebookcheck.net/fileadmin/_processed_/f/9/csm_nbUPIEKI_36151e179a.jpg"
                     alt="ROG Strix G15 2021"></a>
-        </div>
+        </fieldset>
     </div>
     <footer>
         <p>&copy; Copyright 2023 | All Rights Reserved.</p>
