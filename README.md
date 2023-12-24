@@ -1,4 +1,6 @@
+![TechTreasure](https://uk.drones.parts/wp-content/uploads/2023/11/compressed_img-nh4adKNzIV9NH0GlBn9nSmKN.png)
 # TechTreasure
+
 #  [📌Live Views](https://sahilkumardhala.github.io/TechTreasure/)
 
 TechTreasure is a website dedicated to tech enthusiasts, providing a centralized hub to explore an exciting collection of laptops and smartphones.
